@@ -1,0 +1,49 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>muhsin</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static "web/images/favicon.ico" %}">
+    <!-- CSS 
+    ============================================ -->
+    <link rel="stylesheet" href="{% static "web/css/vendor/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/vendor/slick.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/vendor/slick-theme.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/vendor/aos.css" %}">
+    <link rel="stylesheet" href="{% static "web/css/plugins/feature.css" %}">
+    <!-- Style css -->
+    <link rel="stylesheet" href="{% static "web/css/style.css" %}">
+</head>
+<body class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
+
+
+    {% include 'web/partials/header.html' %}
+    {% block content %}
+    {% endblock content %}
+    {% include 'web/partials/footer.html' %}
+
+
+    <!-- JS ============================================ -->
+    <script src="{% static "web/js/vendor/jquery.js" %}"></script>
+    <script src="{% static "web/js/vendor/modernizer.min.js" %}"></script>
+    <script src="{% static "web/js/vendor/feather.min.js" %}"></script>
+    <script src="{% static "web/js/vendor/slick.min.js" %}"></script>
+    <script src="{% static "web/js/vendor/bootstrap.js" %}"></script>
+    <script src="{% static "web/js/vendor/text-type.js" %}"></script>
+    <script src="{% static "web/js/vendor/wow.js" %}"></script>
+    <script src="{% static "web/js/vendor/aos.js" %}"></script>
+    <script src="{% static "web/js/vendor/particles.js" %}"></script>
+    <script src="{% static "web/js/vendor/jquery-one-page-nav.js" %}"></script>
+    <!-- main JS -->
+    <script src="{% static "web/js/main.js" %}"></script>
+</body>
+
+</html>    
