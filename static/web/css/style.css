@@ -17210,7 +17210,7 @@ span.sr-only {
 .navigation-wrapper ul.nav {
   background-color: var(--background-color-1);
   box-shadow: var(--shadow-1);
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin: 0;
   padding: 0;
   border: 0;
@@ -17223,7 +17223,7 @@ span.sr-only {
 }
 
 .navigation-wrapper ul.nav li {
-  flex-basis: 33.33%;
+  /* flex-basis: 33.33%; */
   margin: 0;
 }
 
